@@ -1,0 +1,23 @@
+
+.weatherLocation{
+    margin: 30px;
+    width: 400px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-shadow: 5px 10px 40px 11px rgba(0,0,0,0.75); 
+}
+
+.locationCont{
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    color: #888;
+    line-height: 30px;
+}
+
+.locationCont h1 {
+    margin: 0;
+    margin-bottom: 10px;
+
+}
