@@ -1,8 +1,11 @@
 
-.weatherLocation{
-    margin: 30px;
-    width: 400px;
-    padding: 15px;
+.weatherLocationCount{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100% - 20px ); /*al 100% restale la suma de los margin 20 */
+    min-width: 400px;
+    padding: 25px;
+    box-sizing: border-box; /*contempla el padding como tamanho de control*/
     font-family: 'Roboto', sans-serif;
     -webkit-box-shadow: 5px 10px 40px 11px rgba(0,0,0,0.75); 
 }
@@ -14,6 +17,7 @@
     padding-left: 10px;
     color: #888;
     line-height: 30px;
+    margin-top: 20px;
 }
 
 .locationCont h1 {
