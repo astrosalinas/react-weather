@@ -38,7 +38,7 @@ class WeatherLocation extends Component{
         const { onWeatherLocationClick } = this.props;
         const { city, data } = this.state;
         return (
-            <div className="weatherLocation" onClick={onWeatherLocationClick}>
+            <div className="weatherLocationCont" onClick={onWeatherLocationClick}>
                 <Location city={city}/>
                 {data ? <WeatherData data={data} /> : <CircularProgress size={60} thickness={7} />}
             </div>
