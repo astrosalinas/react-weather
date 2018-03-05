@@ -8,7 +8,7 @@ export const city = (state = {}, action) => {
             // se desglosa el state y si existe la propiedad city 
             // se medifica el valor por lo que nos viene en action.payload
             // si no existe se agrega al state
-            return {...state, city: action.payload }
+            return action.payload ;
         default:
             return state;
     }
